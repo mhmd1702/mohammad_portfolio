@@ -50,6 +50,14 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
           <SiMysql />
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <SiUnity />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <SiUnrealengine />
+      </Col>
       
     </Row>
   );
