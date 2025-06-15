@@ -11,6 +11,8 @@ import {
   SiBootstrap,
   SiDjango,
   SiMysql,
+  SiUnity,
+  SiUnrealengine
 } from "react-icons/si";
 
 function Techstack() {
