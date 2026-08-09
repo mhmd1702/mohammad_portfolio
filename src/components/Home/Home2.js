@@ -4,7 +4,6 @@ import myImg from "../../Assets/mhmd.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
