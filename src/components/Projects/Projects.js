@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import Snake from "../../Assets/Projects/Snake.jpg";
 import face from "../../Assets/Projects/face-removebg-preview.png";
 import bakery from "../../Assets/Projects/bakery-order-management-software.png"
+import Agent from "../../Assets/Projects/Voice Agent.png"
+import Resume from "../../Assets/Projects/Smart AI Resume Analyzer.png"
 
 function Projects() {
   return (
@@ -53,6 +55,33 @@ function Projects() {
               ghLink="https://github.com/mhmd1702/Bakery_Order_Management_System--python"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Agent}
+              isBlog={false}
+              title="Smart Voice AI Agent"
+              description="An AI-powered voice agent designed to interact with users through natural conversations, understand their requirements, access real-time data, and automate appointment booking. The agent uses conversational memory and intelligent decision-making to handle the complete booking process without manual intervention.
+
+                 The system is built with n8n workflow automation, AI voice technologies, APIs, and real-time data integration, enabling businesses to automate customer interactions and appointment management 24/7."
+              ghLink="https://github.com/mhmd1702"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Resume}
+              isBlog={false}
+              title="Smart AI Resume Analyzer"
+              description="An AI-powered resume analysis platform that helps job seekers create, evaluate, and improve their resumes. The system analyzes resumes against job descriptions, provides an ATS score, identifies missing skills and keywords, and offers personalized suggestions to improve job matching.
+
+The platform also includes **AI-powered resume building, job search, and interview preparation** features to help candidates improve their overall job application process.
+"
+              ghLink="https://github.com/mhmd1702"
+            />
+          </Col>
+
+          
 
           
 
